@@ -4,14 +4,18 @@
   "description": "Server for Token Authentication",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "TARIK SAHNI",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "eslint": "^4.16.0",
     "express": "^4.16.2",
     "mongoose": "^5.0.1",
-    "morgan": "^1.9.0"
+    "morgan": "^1.9.0",
+    "nodemon": "^1.14.11",
+    "prettier": "^1.10.2"
   }
 }
