@@ -1,7 +1,7 @@
+const Authentication = require('./controllers/authentication');
+
 const routes = function(app) {
-  app.get('/', function(req, res, next) {
-    res.send(['react', 'redux']);
-  });
+  app.post('/signup', Authentication.signup);
 };
 
 module.exports = routes;
