@@ -4,8 +4,12 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 
 const app = express();
+const router = require('./router');
 
 //App SetUp
+app.use(morgan('combined'));
+app.use(bodyParser.json({ type: '*/*' }));
+router(app);
 
 //Server SetUp
 
