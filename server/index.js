@@ -21,6 +21,6 @@ server.listen(port);
 
 /* eslint-disable */
 console.log(
-  `==> 🌎 Listening on port ${port}. \n` +
+  `==>  🌎   Listening on port ${port}. \n` +
     `Open up http://localhost:${port}/ in your browser.`
 );
